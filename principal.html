@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="video.html">Vídeo</a></li>
+                <li><a href="desporto.html">Desporto</a></li>
+                <li><a href="eu.html">Eu</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Alternar Tema</button>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Bem-vindo ao meu Portfólio</h1>
+            <p>
+                OLÁ!!! O meu nome é Gustavo e esta página é o ponto de partida para explorar diferentes partes da minha vida. 
+                Explora os temas que fazem parte de quem eu sou: música, vídeo, desporto e um pouco sobre mim.
+                Cada secção foi criada para compartilhar algo único e especial. Enjoy! :)
+            </p>
+        </section>
+        <div class="image-display">
+            <div class="image-container" onclick="handleImageClick('musica.html')">
+                <img src="musica 1.jpeg" alt="Música">
+                <div class="image-overlay">
+                    <p>Música</p>
+                </div>
+            </div>
+            <div class="image-container" onclick="handleImageClick('video.html')">
+                <img src="video 1.jpeg" alt="Vídeo">
+                <div class="image-overlay">
+                    <p>Vídeo</p>
+                </div>
+            </div>
+            <div class="image-container" onclick="handleImageClick('desporto.html')">
+                <img src="Box 1.jpg" alt="Desporto">
+                <div class="image-overlay">
+                    <p>Desporto</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Portfólio GR</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
